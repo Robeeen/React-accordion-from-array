@@ -12,6 +12,7 @@ const Accordion = ({title, info}) =>{
                 {showInfo ? <AiOutlineMinusCircle/> : <AiOutlinePlusCircle />}
                 </buttion>
             </header>
+            <div className='underline'></div>
             { showInfo && <p>{info}</p>  }
                
            
